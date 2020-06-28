@@ -1,0 +1,119 @@
+.navbar {
+  background: #000; }
+  .navbar .nav-item {
+    padding: 1em; }
+  .navbar .nav-link {
+    text-transform: uppercase; }
+
+.carousel-item {
+  height: 450px; }
+
+.carousel-img-1 {
+  background: url("../img/image1.jpeg");
+  background-size: cover; }
+
+.carousel-img-2 {
+  background: url("../img/image2.jpeg");
+  background-size: cover; }
+
+.carousel-img-3 {
+  background: url("../img/image3.jpeg");
+  background-size: cover; }
+
+#homeicon .fa {
+  font-size: 50px; }
+
+#get-started {
+  background: url("../img/bg1.jpg");
+  background-size: cover;
+  min-height: 250px;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  position: relative; }
+  #get-started .dark-overlay {
+    background: rgba(0, 0, 0, 0.6);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%; }
+
+#pc h3 {
+  font-weight: 600; }
+
+#bootstrap {
+  background: url("../img/bg1.jpg");
+  background-size: cover;
+  min-height: 250px;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  position: relative; }
+  #bootstrap .dark-overlay {
+    background: rgba(0, 0, 0, 0.6);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%; }
+  #bootstrap .fa {
+    font-size: 50px;
+    color: #ff0000; }
+  #bootstrap h2 {
+    font-weight: 600;
+    color: #fff; }
+
+#photo-gallery img {
+  min-height: 250px; }
+
+#copyright {
+  background: #000; }
+  #copyright .lead {
+    font-size: 1.25rem;
+    font-weight: 300; }
+
+#page-header {
+  background: url(../img/image1.jpeg);
+  background-size: cover;
+  height: 200px;
+  background-attachment: fixed; }
+  #page-header h2 {
+    font-weight: 600; }
+
+#services-header {
+  background: url(../img/image3.jpeg);
+  background-size: cover;
+  height: 200px;
+  background-attachment: fixed; }
+  #services-header h2 {
+    font-weight: 600; }
+
+#what h3 {
+  font-weight: 600; }
+
+#what img {
+  width: 350px;
+  height: 350px; }
+
+#icon-box .fa {
+  font-size: 50px;
+  margin-bottom: 20px; }
+
+#testimonial .slick-prev::before {
+  color: #000; }
+
+#testimonial .slick-next::before {
+  color: #000; }
+
+@media (max-width: 767px) {
+  .nav-item {
+    padding: 0 !important; }
+  #get-started {
+    min-height: 300px; } }
+
+@media (max-width: 480px) {
+  .navbar img {
+    display: none; }
+  .carousel h2 {
+    font-size: 2.5rem; }
+  #get-started {
+    min-height: 400px; } }

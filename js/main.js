@@ -1,0 +1,19 @@
+$('.slider').slick({
+  infinite:true,
+  slideToShow:1,
+  slideToScroll:1
+});
+$('.multiple-slider').slick({
+  infinite:false,
+  slidesToShow:3,
+  slidesToScroll:3,
+  responsive:[
+    {
+      breakpoint:480,
+      settings:{
+        slidesToShow:1,
+        slidesToScroll:1
+      }
+    }
+  ]
+});
